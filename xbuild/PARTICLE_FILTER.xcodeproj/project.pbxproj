@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0AAEEFDC873E46619723B5D6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D55E425C1D2A4954BEC2B309 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DD895CC99D6C4E41B7DE491A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		246E730BBDD344F1A8EA0C6A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1B58DDC0320412FA6DAF584 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EE146CB621234CFB83F10C79 /* CMake Rules */,
+			);
+			dependencies = (
+				1172E528A95943F2B8F1A38D /* PBXTargetDependency */,
+				E4CB0DF2D89D403F97E4F8D1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14344DCCF70E4EBB83298674 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8623812AC6E146D9952AF421 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */; };
+		B460A7DE984540789FF11CDF /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/particle_filter.cpp */ = {isa = PBXBuildFile; fileRef = DF5E5D9DE59D4A00A238A2EB /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/particle_filter.cpp */; };
+		F95ED5DBA9BE4D9CB3320510 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/main.cpp */ = {isa = PBXBuildFile; fileRef = F0B7E429373142EDA82DCE3F /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		260BFB71585442E4BF0B37A7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5B459618E1C546D6BE4B4E2C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8071B793008B424AA65AC369 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C1E54559BA0847D5BA864F54 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2497BCDA01934FDFBD0EB741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43E98452BEB4FB0A6363C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C75588EF4040A893DCE6CE;
+			remoteInfo = particle_filter;
+		};
+		2F6F6CD0DB9C48D4AC100FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43E98452BEB4FB0A6363C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAEEFDC873E46619723B5D6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D3B61EC4C19E4D17BD4C2527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43E98452BEB4FB0A6363C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAEEFDC873E46619723B5D6;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D0E6EF77C14F5089E702BD /* particle_filter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = particle_filter; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E80A82E8E2547FF93FB2946 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8623812AC6E146D9952AF421 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A2A522F4E5DF44E18E2D1E9D /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF5E5D9DE59D4A00A238A2EB /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/particle_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = particle_filter.cpp; path = src/particle_filter.cpp; sourceTree = SOURCE_ROOT; };
+		F0B7E429373142EDA82DCE3F /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3086D945F8B242AE9699D955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D0E6EF77C14F5089E702BD /* particle_filter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398C8BA9A4C248C6B92A066C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B7E429373142EDA82DCE3F /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/main.cpp */,
+				DF5E5D9DE59D4A00A238A2EB /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/particle_filter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		60441BEDE9D94CC5926D0699 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		750711B34E0D4E6CBC1262F9 /* particle_filter */ = {
+			isa = PBXGroup;
+			children = (
+				398C8BA9A4C248C6B92A066C /* Source Files */,
+				8623812AC6E146D9952AF421 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */,
+			);
+			name = particle_filter;
+			sourceTree = "<group>";
+		};
+		A6973F5636334A058C93BE84 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C916CB1064D94580B1B449E0 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				A6973F5636334A058C93BE84 /* CMake Rules */,
+				5E80A82E8E2547FF93FB2946 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		DBCB91F88A90447DB345FACA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				60441BEDE9D94CC5926D0699 /* CMake Rules */,
+				A2A522F4E5DF44E18E2D1E9D /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F6BC9BB1F2EF4CB2B6A997CE = {
+			isa = PBXGroup;
+			children = (
+				750711B34E0D4E6CBC1262F9 /* particle_filter */,
+				DBCB91F88A90447DB345FACA /* ALL_BUILD */,
+				C916CB1064D94580B1B449E0 /* ZERO_CHECK */,
+				3086D945F8B242AE9699D955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C75588EF4040A893DCE6CE /* particle_filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4827FBBC6BF746FF8C11D374 /* Build configuration list for PBXNativeTarget "particle_filter" */;
+			buildPhases = (
+				F25BA6A12C2342A1A4345502 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97B2AAC02F2D475CB5729D87 /* PBXTargetDependency */,
+			);
+			name = particle_filter;
+			productName = particle_filter;
+			productReference = 15D0E6EF77C14F5089E702BD /* particle_filter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43E98452BEB4FB0A6363C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = F1CA216B16DB478CB47569EB /* Build configuration list for PBXProject "PARTICLE_FILTER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8071B793008B424AA65AC369 /* Debug */,
+				260BFB71585442E4BF0B37A7 /* Release */,
+				5B459618E1C546D6BE4B4E2C /* MinSizeRel */,
+				C1E54559BA0847D5BA864F54 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F6BC9BB1F2EF4CB2B6A997CE;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				246E730BBDD344F1A8EA0C6A /* ALL_BUILD */,
+				0AAEEFDC873E46619723B5D6 /* ZERO_CHECK */,
+				C0C75588EF4040A893DCE6CE /* particle_filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95918C7DD23D42C18F21EBA9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A308E6AC6ACE4616827C720B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DD895CC99D6C4E41B7DE491A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/student/Udacity/sdcn2/L15\\ P3\\ Kidnapped\\ Vehicle\\ Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild -f /Users/student/Udacity/sdcn2/L15\\ P3\\ Kidnapped\\ Vehicle\\ Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EE146CB621234CFB83F10C79 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/student/Udacity/sdcn2/L15\\ P3\\ Kidnapped\\ Vehicle\\ Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild -f /Users/student/Udacity/sdcn2/L15\\ P3\\ Kidnapped\\ Vehicle\\ Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25BA6A12C2342A1A4345502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95ED5DBA9BE4D9CB3320510 /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/main.cpp */,
+				B460A7DE984540789FF11CDF /* /Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/src/particle_filter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1172E528A95943F2B8F1A38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C75588EF4040A893DCE6CE /* particle_filter */;
+			targetProxy = 2497BCDA01934FDFBD0EB741 /* PBXContainerItemProxy */;
+		};
+		97B2AAC02F2D475CB5729D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAEEFDC873E46619723B5D6 /* ZERO_CHECK */;
+			targetProxy = 2F6F6CD0DB9C48D4AC100FDE /* PBXContainerItemProxy */;
+		};
+		E4CB0DF2D89D403F97E4F8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAEEFDC873E46619723B5D6 /* ZERO_CHECK */;
+			targetProxy = D3B61EC4C19E4D17BD4C2527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F00D99EFE984B729A81A3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "     -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		228A360FF0334B4D8F3C19FB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2AA1FD694C5149D9BF8271ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/build";
+			};
+			name = Release;
+		};
+		353CBEC8C58244338BC55217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4D14BDFA25B2430BB63E3991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5DAD9A90328E4DDF98AB7AC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		641E4DB55BFF4199A38A3A76 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		711963B60D7343E2ACF6A5F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7BE8DEAF7F6342C2AE998BAD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7D4CF17EA6B044D3AE7E1A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		89B9EE15FF834540A3225110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8D14C5F216614796BA790486 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		93D4D4F15E2E45D99C13F8E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B46CF8135AAC485C834A7897 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		F8707923F7BE43C3A17258FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild/build";
+			};
+			name = Debug;
+		};
+		FDD6FE9363B34969A310443F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/student/Udacity/sdcn2/L15 P3 Kidnapped Vehicle Project/MyProject/CarND-Particle-Filter-Localization-Kidnapped-Vehicle-Project-P8/xbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4827FBBC6BF746FF8C11D374 /* Build configuration list for PBXNativeTarget "particle_filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F00D99EFE984B729A81A3D2 /* Debug */,
+				4D14BDFA25B2430BB63E3991 /* Release */,
+				228A360FF0334B4D8F3C19FB /* MinSizeRel */,
+				8D14C5F216614796BA790486 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1B58DDC0320412FA6DAF584 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9EE15FF834540A3225110 /* Debug */,
+				7D4CF17EA6B044D3AE7E1A59 /* Release */,
+				7BE8DEAF7F6342C2AE998BAD /* MinSizeRel */,
+				641E4DB55BFF4199A38A3A76 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D55E425C1D2A4954BEC2B309 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6FE9363B34969A310443F /* Debug */,
+				353CBEC8C58244338BC55217 /* Release */,
+				93D4D4F15E2E45D99C13F8E6 /* MinSizeRel */,
+				711963B60D7343E2ACF6A5F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1CA216B16DB478CB47569EB /* Build configuration list for PBXProject "PARTICLE_FILTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8707923F7BE43C3A17258FB /* Debug */,
+				2AA1FD694C5149D9BF8271ED /* Release */,
+				B46CF8135AAC485C834A7897 /* MinSizeRel */,
+				5DAD9A90328E4DDF98AB7AC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43E98452BEB4FB0A6363C2B /* Project object */;
+}
