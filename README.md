@@ -17,6 +17,8 @@ The algorithm follows the following steps:
 5. **Resample** the set of particles with the **probability based on the particle weights** to recenter them on the best matches from the landmark observations.
 6. Visualize the **best particle with the highest weight** and it's associated observations as the filter's output vehicle position.
 
+[<img src="./images/PF_video_screenshot.png" width="800">](https://vimeo.com/243361640)
+
 ## Key Files
 
 | File                         | Description                                                                                                                                            |
